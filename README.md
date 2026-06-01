@@ -28,6 +28,17 @@ I am currently a **Backend and System Engineer** with an **architecture-first mi
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com/?user=watashi-00&theme=dark&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=d9d9d9&border=333333&border_radius=12"
+    alt="GitHub Streak"
+  />
+</p>
+
+---
+
 ## 📫 Contact & Connect
 
 * 📧 **Personal:** [nova2948@gmail.com](mailto:nova2948@gmail.com)
