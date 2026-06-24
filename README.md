@@ -1,51 +1,97 @@
-# 👋 Hi, I’m Rodrigo (Watashi00)
-
-I am currently a **Backend and System Engineer** with an **architecture-first mindset**, focused on building scalable, reliable, and high-performance systems. I enjoy designing end-to-end solutions—from low-level implementation details to high-level distributed architectures.
-
----
-
-## 🛠 Technologies & Tools
-
-### Languages, Web & Frameworks
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Assembly](https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assemblyscript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-
-### Data, Messaging & Cloud
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![H2](https://img.shields.io/badge/H2-0F4B8E?style=for-the-badge) ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white) ![Cloudflare R2](https://img.shields.io/badge/Cloudflare%20R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-
-### DevOps & Infrastructure
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
----
-
-## 🏗 Core Competencies
-
-* **Architecture & Design:** Layered Architecture, REST API design, SOLID principles, OpenAPI/Swagger, and secure authentication (JWT/Roles).
-* **Performance & Scale:** Distributed systems trade-offs, low-level optimization, memory/CPU awareness, and bottleneck identification.
-* **Infrastructure & Edge:** S3-compatible storage integration, Docker/K8s environments, CI/CD (GitHub Actions), and Cloudflare DNS/CDN routing.
-* **Testing & Quality:** Refactoring-oriented mindset with strong emphasis on Unit (JUnit/Mockito) and Integration testing for long-term maintainability.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com/?user=watashi-00&theme=dark&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=d9d9d9&border=333333&border_radius=12"
-    alt="GitHub Streak"
-  />
-</p>
-
----
-
-## 📫 Contact & Connect
-
-* 📧 **Personal:** [nova2948@gmail.com](mailto:nova2948@gmail.com)
+<div align="center">
+  <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="35" align="center" /> Hi, I’m Rodrigo (Watashi00)</h1>
+  <p><b>Backend and System Engineer</b> with an <b>architecture-first mindset</b>.</p>
+  <p><i>Focused on building scalable, reliable, and high-performance systems. I enjoy designing end-to-end solutions—from low-level implementation details to high-level distributed architectures.</i></p>
+</div>
 
 <br>
 
+---
+
+## 📊 Profile & Analytics
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Classical%20Building.png" alt="Architecture" width="25" align="center" /> Core Competencies</h3>
+      <ul>
+        <li><b>Architecture & Design:</b> Layered Architecture, REST API design, SOLID principles, OpenAPI/Swagger, and secure authentication (JWT/Roles).</li>
+        <li><b>Performance & Scale:</b> Distributed systems trade-offs, low-level optimization, memory/CPU awareness, and bottleneck identification.</li>
+        <li><b>Infrastructure & Edge:</b> S3-compatible storage integration, Docker/K8s environments, CI/CD (GitHub Actions), and Cloudflare DNS/CDN routing.</li>
+        <li><b>Testing & Quality:</b> Refactoring-oriented mindset with strong emphasis on Unit (JUnit/Mockito) and Integration testing.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Stats" width="25" align="center" /> GitHub Activity</h3>
+      <img src="https://github-readme-stats.vercel.app/api?username=watashi-00&show_icons=true&theme=dark&hide_border=true&bg_color=000000&count_private=true" alt="Rodrigo's GitHub Stats" width="100%" />
+      <img src="https://streak-stats.demolab.com/?user=watashi-00&theme=dark&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=d9d9d9&hide_border=true&border_radius=12" alt="GitHub Streak" width="100%" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+---
+
 <div align="center">
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="30" align="center" /> Technologies & Tools</h2>
+  <br>
+
+  <h3>Languages, Web & Frameworks</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+    <img src="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+    <img src="https://img.shields.io/badge/Assembly-000000?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly" />
+    <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <br>
+    <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Spring%20Boot-000000?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot" />
+    <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white" alt="Bun" />
+    <img src="https://img.shields.io/badge/Zig-000000?style=for-the-badge&logo=zig&logoColor=white" alt="Zig" />
+  </p>
+
+  <h3>Data, Messaging & Cloud</h3>
+  <p>
+    <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/H2-000000?style=for-the-badge" alt="H2" />
+    <img src="https://img.shields.io/badge/Cassandra-000000?style=for-the-badge&logo=apachecassandra&logoColor=white" alt="Cassandra" />
+    <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+    <img src="https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+    <img src="https://img.shields.io/badge/RabbitMQ-000000?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
+    <br>
+    <img src="https://img.shields.io/badge/Amazon%20S3-000000?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Amazon S3" />
+    <img src="https://img.shields.io/badge/Cloudflare%20R2-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare R2" />
+    <img src="https://img.shields.io/badge/Cloudflare-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  </p>
+
+  <h3>DevOps & Infrastructure</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/Kubernetes-000000?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  </p>
+</div>
+
+---
+
+<div align="center">
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Link.png" alt="Link" width="30" align="center" /> Contact & Connect</h2>
+  
+  <p>
+    <a href="mailto:watashi@hexacloud.net.br">
+      <img src="https://img.shields.io/badge/Email-watashi%40hexacloud.net.br-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
+
+  <br>
+
   <p><i>Always exploring new technologies and paradigms, with a constant focus on how systems are designed, built, and scaled.</i></p>
   <img src="https://count.getloli.com/get/@Watashi-00" alt="Moe Visitor Badge" />
 </div>
