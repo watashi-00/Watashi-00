@@ -39,17 +39,45 @@
   <br>
 
   <h3>Languages, Web & Frameworks</h3>
-  <img src="https://skillicons.dev/icons?i=java,c,rust,js,ts,html,css,react,spring,nodejs,bun,zig&perline=6&theme=dark" alt="Languages, Web & Frameworks" />
-
-  <br><br>
+  <p>
+    <img src="https://img.shields.io/badge/-Java-000000?style=flat-square&logo=java&logoColor=white" alt="Java" />
+    <img src="https://img.shields.io/badge/-C-000000?style=flat-square&logo=c&logoColor=white" alt="C" />
+    <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+    <img src="https://img.shields.io/badge/-Assembly-000000?style=flat-square&logo=assemblyscript&logoColor=white" alt="Assembly" />
+    <img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <br>
+    <img src="https://img.shields.io/badge/-HTML5-000000?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/-CSS3-000000?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/-Spring%20Boot-000000?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot" />
+    <img src="https://img.shields.io/badge/-Node.js-000000?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/-Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun" />
+    <img src="https://img.shields.io/badge/-Zig-000000?style=flat-square&logo=zig&logoColor=white" alt="Zig" />
+  </p>
 
   <h3>Data, Messaging & Cloud</h3>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,cassandra,kafka,rabbitmq,aws,cloudflare&perline=4&theme=dark" alt="Data, Messaging & Cloud" />
-
-  <br><br>
+  <p>
+    <img src="https://img.shields.io/badge/-PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/-MySQL-000000?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/-H2-000000?style=flat-square" alt="H2" />
+    <img src="https://img.shields.io/badge/-Cassandra-000000?style=flat-square&logo=apachecassandra&logoColor=white" alt="Cassandra" />
+    <img src="https://img.shields.io/badge/-Redis-000000?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+    <img src="https://img.shields.io/badge/-Kafka-000000?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
+    <img src="https://img.shields.io/badge/-RabbitMQ-000000?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
+    <br>
+    <img src="https://img.shields.io/badge/-Amazon%20S3-000000?style=flat-square&logo=amazonaws&logoColor=white" alt="Amazon S3" />
+    <img src="https://img.shields.io/badge/-Cloudflare%20R2-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare R2" />
+    <img src="https://img.shields.io/badge/-Cloudflare-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  </p>
 
   <h3>DevOps & Infrastructure</h3>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes&perline=4&theme=dark" alt="DevOps & Infrastructure" />
+  <p>
+    <img src="https://img.shields.io/badge/-Git-000000?style=flat-square&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/-Docker-000000?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/-Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  </p>
 </div>
 
 <br>
@@ -61,7 +89,7 @@
   
   <p>
     <a href="mailto:watashi@hexacloud.net.br">
-      <img src="https://img.shields.io/badge/Email-watashi%40hexacloud.net.br-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/-watashi%40hexacloud.net.br-000000?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
 
