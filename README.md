@@ -24,6 +24,7 @@
     <td width="50%" valign="top" align="center">
       <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Stats" width="25" align="center" /> GitHub Activity</h3>
       <img src="https://github-readme-stats.vercel.app/api?username=watashi-00&show_icons=true&theme=dark&hide_border=true&bg_color=000000&count_private=true" alt="Rodrigo's GitHub Stats" width="100%" />
+      <br><br>
       <img src="https://streak-stats.demolab.com/?user=watashi-00&theme=dark&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=d9d9d9&hide_border=true&border_radius=12" alt="GitHub Streak" width="100%" />
     </td>
   </tr>
@@ -38,46 +39,20 @@
   <br>
 
   <h3>Languages, Web & Frameworks</h3>
-  <p>
-    <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-    <img src="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Assembly-000000?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly" />
-    <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <br>
-    <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-    <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Spring%20Boot-000000?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot" />
-    <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white" alt="Bun" />
-    <img src="https://img.shields.io/badge/Zig-000000?style=for-the-badge&logo=zig&logoColor=white" alt="Zig" />
-  </p>
+  <img src="https://skillicons.dev/icons?i=java,c,rust,js,ts,html,css,react,spring,nodejs,bun,zig&perline=6&theme=dark" alt="Languages, Web & Frameworks" />
+
+  <br><br>
 
   <h3>Data, Messaging & Cloud</h3>
-  <p>
-    <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-    <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-    <img src="https://img.shields.io/badge/H2-000000?style=for-the-badge" alt="H2" />
-    <img src="https://img.shields.io/badge/Cassandra-000000?style=for-the-badge&logo=apachecassandra&logoColor=white" alt="Cassandra" />
-    <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-    <img src="https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
-    <img src="https://img.shields.io/badge/RabbitMQ-000000?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-    <br>
-    <img src="https://img.shields.io/badge/Amazon%20S3-000000?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Amazon S3" />
-    <img src="https://img.shields.io/badge/Cloudflare%20R2-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare R2" />
-    <img src="https://img.shields.io/badge/Cloudflare-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-  </p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,cassandra,kafka,rabbitmq,aws,cloudflare&perline=4&theme=dark" alt="Data, Messaging & Cloud" />
+
+  <br><br>
 
   <h3>DevOps & Infrastructure</h3>
-  <p>
-    <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/Kubernetes-000000?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  </p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes&perline=4&theme=dark" alt="DevOps & Infrastructure" />
 </div>
+
+<br>
 
 ---
 
