@@ -1,7 +1,7 @@
 <div align="center">
   <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="35" align="center" /> Hi, I’m Rodrigo (Watashi00)</h1>
   <p><b>Backend and System Engineer</b> with an <b>architecture-first mindset</b>.</p>
-  <p><i>Focused on building scalable, reliable, and high-performance systems. I enjoy designing end-to-end solutions—from low-level implementation details to high-level distributed architectures.</i></p>
+  <p><i>Focused on building scalable, reliable, and high-performance systems. I enjoy designing end-to-end solutions, from low-level implementation details to high-level distributed architectures.</i></p>
 </div>
 
 <br>
