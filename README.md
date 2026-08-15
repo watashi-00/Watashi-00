@@ -32,7 +32,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Research" width="25" align="center" /> Active Sandbox Research Labs</h3>
+      <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Research" width="25" align="center" /> Active Research & Study</h3>
       <ul>
         <li><b>Vulkan Graphic Pipelines</b></li>
         <li><b>eBPF Subsystem Architecture</b></li>
