@@ -35,53 +35,51 @@
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Showcase" width="26" align="center" /> Architecture & Engineering Showcase
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th width="40%">🚀 Project & Concept</th>
-      <th width="15%">🛠️ Tech Stack</th>
-      <th width="45%">⚙️ Architecture & Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">
-        <b>1. Site Package Manager (SPM)</b><br><br>
-        <sub>A declarative web modernization platform that injects React 18 + Shadow DOM into outdated legacy web interfaces without altering backend server code.</sub>
-      </td>
-      <td valign="top">
-        <img src="https://img.shields.io/badge/-C%2B%2B17-000000?style=flat-square&logo=cplusplus&logoColor=white" alt="C++17" />
-        <img src="https://img.shields.io/badge/-React%2018-000000?style=flat-square&logo=react&logoColor=61DAFB" alt="React 18" /><br>
-        <img src="https://img.shields.io/badge/-Cloudflare%20Worker-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Worker" />
-        <img src="https://img.shields.io/badge/-HMAC--SHA256-000000?style=flat-square" alt="HMAC-SHA256" />
-      </td>
-      <td valign="top">
-        <b>Compiler (spm-cli):</b> <code>C++17</code> lexer/parser resolving class inheritance trees into JSON manifests.<br><br>
-        <b>Edge Gateway:</b> Cloudflare Worker using SubtleCrypto HMAC-SHA256 for fast-path payload validation.<br><br>
-        <b>Write:</b> <code>[spm-cli] ➔ [GitOps] ➔ [CF Worker] ➔ [R2]</code><br>
-        <b>Read:</b> <code>[Extension] ➔ [Local Cache] ➔ [Edge Cache] ➔ [R2]</code>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        <b>2. GateBridge</b><br><br>
-        <sub>A highly concurrent, lightweight reverse proxy and cluster gateway framework written in Java.</sub>
-      </td>
-      <td valign="top">
-        <img src="https://img.shields.io/badge/-Java-000000?style=flat-square&logo=java&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/-Project%20Loom-000000?style=flat-square" alt="Project Loom" /><br>
-        <img src="https://img.shields.io/badge/-TUI-000000?style=flat-square" alt="TUI" />
-      </td>
-      <td valign="top">
-        <b>Virtual Threads:</b> Powered by Java Loom concurrency, enabling massive throughput with minimal RAM usage.<br><br>
-        <b>Control Panel:</b> Built with an interactive Terminal User Interface (TUI) for dynamic routing and event auditing.<br><br>
-        <b>Pipeline:</b><br>
-        <code>[Clients] ➔ [GateBridge] ➔ [Nodes]</code>
-      </td>
-    </tr>
-  </tbody>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="45%" valign="top" align="center">
+      <br>
+      <a href="https://github.com/spm-ecosystem/site-package-manager">
+        <img src="spm-repo.svg" alt="SPM Repository" width="100%" />
+      </a>
+    </td>
+    <td width="55%" valign="top">
+      <h4>🛠️ Tech Stack</h4>
+      <img src="https://img.shields.io/badge/-C%2B%2B17-000000?style=flat-square&logo=cplusplus&logoColor=white" alt="C++17" />
+      <img src="https://img.shields.io/badge/-React%2018-000000?style=flat-square&logo=react&logoColor=61DAFB" alt="React 18" />
+      <img src="https://img.shields.io/badge/-Cloudflare%20Worker-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Worker" />
+      <img src="https://img.shields.io/badge/-HMAC--SHA256-000000?style=flat-square" alt="HMAC-SHA256" />
+      <h4>⚙️ Architecture Details</h4>
+      <ul>
+        <li><b>Compiler (spm-cli):</b> <code>C++17</code> lexer/parser resolving class inheritance trees into JSON manifests.</li>
+        <li><b>Edge Gateway:</b> Cloudflare Worker using SubtleCrypto HMAC-SHA256 for fast-path payload validation.</li>
+        <li><b>Write Pipeline:</b> <code>[spm-cli] ➔ [GitOps] ➔ [CF Worker] ➔ [R2]</code></li>
+        <li><b>Read Pipeline:</b> <code>[Extension] ➔ [Local Cache] ➔ [Edge Cache] ➔ [R2]</code></li>
+      </ul>
+    </td>
+  </tr>
+  <tr><td colspan="2"><br><hr><br></td></tr>
+  <tr>
+    <td width="45%" valign="top" align="center">
+      <br>
+      <a href="https://github.com/watashi-00/gatebridge">
+        <img src="gatebridge-repo.svg" alt="GateBridge Repository" width="100%" />
+      </a>
+    </td>
+    <td width="55%" valign="top">
+      <h4>🛠️ Tech Stack</h4>
+      <img src="https://img.shields.io/badge/-Java-000000?style=flat-square&logo=java&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/-Project%20Loom-000000?style=flat-square" alt="Project Loom" />
+      <img src="https://img.shields.io/badge/-TUI-000000?style=flat-square" alt="TUI" />
+      <h4>⚙️ Architecture Details</h4>
+      <ul>
+        <li><b>Virtual Threads:</b> Powered by Java Loom concurrency, enabling massive throughput with minimal RAM usage.</li>
+        <li><b>Control Panel:</b> Built with an interactive Terminal User Interface (TUI) for dynamic routing and event auditing.</li>
+        <li><b>Network Pipeline:</b> <code>[Clients] ➔ [GateBridge] ➔ [Nodes]</code></li>
+      </ul>
+    </td>
+  </tr>
 </table>
-
 ---
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="26" align="center" /> Technologies & Tools
