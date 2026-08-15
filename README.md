@@ -148,6 +148,13 @@
 
 <img src="https://count.getloli.com/get/@Watashi-00" alt="Moe Visitor Badge" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:2b2b2b&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer banner" />
+<br><br>
 
+<a href="https://github.com/sponsors/watashi-00">
+  <img src="https://github.com/sponsors/watashi-00/card" alt="Sponsor Watashi" width="600" />
+</a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:2b2b2b&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer banner" />
 </div>
