@@ -22,8 +22,7 @@ jobs:
 
           filename: github-metrics.svg
           config_timezone: America/Sao_Paulo
-          
-
+          config_theme: dark
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           
@@ -39,3 +38,29 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+
+      - name: Generate SPM Repo Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: spm-repo.svg
+          user: spm-ecosystem
+          repo: site-package-manager
+          template: repository
+          config_theme: dark
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 4
+
+      - name: Generate GateBridge Repo Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: gatebridge-repo.svg
+          user: watashi-00
+          repo: gatebridge
+          template: repository
+          config_theme: dark
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 4
