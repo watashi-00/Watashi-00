@@ -29,6 +29,7 @@
     </td>
   </tr>
 </table>
+
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td width="50%" valign="top">
@@ -47,6 +48,43 @@
           </a>
         </li>
       </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Showcase" width="30" align="center" /> Architecture & Engineering Showcase</h2>
+</div>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛠️ 1. Site Package Manager (SPM)</h3>
+      <p>A declarative web modernization platform that injects React 18 + Shadow DOM into outdated legacy web interfaces without altering backend server code.</p>
+      <ul>
+        <li><b>Compiler (spm-cli):</b> <code>C++17</code> lexer/parser resolving class inheritance trees into JSON manifests.</li>
+        <li><b>Edge Gateway:</b> Cloudflare Worker using SubtleCrypto HMAC-SHA256 for fast-path payload validation.</li>
+      </ul>
+      <p><b>Write Pipeline:</b><br>
+      <code>[spm-cli] ➔ [GitOps] ➔ [CF Worker] ➔ [R2 Storage]</code></p>
+      <p><b>Read Pipeline:</b><br>
+      <code>[Extension] ➔ [Local Cache] ➔ [Edge Cache] ➔ [R2]</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ 2. GateBridge</h3>
+      <p>A highly concurrent, lightweight reverse proxy and cluster gateway framework written in Java.</p>
+      <br>
+      <ul>
+        <li><b>Virtual Threads:</b> Powered by Java Loom concurrency, enabling massive throughput with minimal RAM usage.</li>
+        <li><b>Control Panel:</b> Built with an interactive Terminal User Interface (TUI) for dynamic routing and event auditing.</li>
+      </ul>
+      <br>
+      <p><b>Architecture Pipeline:</b><br>
+      <code>[Clients] ➔ [GateBridge (Loom)] ➔ [Target Nodes]</code></p>
     </td>
   </tr>
 </table>
