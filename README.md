@@ -23,29 +23,7 @@
     <td width="50%" valign="top" align="center">
       <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Stats" width="25" align="center" /> GitHub Activity</h3>
       <br>
-      <img src="https://streak-stats.demolab.com/?user=watashi-00&theme=dark&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=d9d9d9&hide_border=true&border_radius=12" alt="GitHub Streak" width="100%" />
-      <br>
-      <img src="https://github-stats-extended.vercel.app/api?username=watashi-00&show_icons=true&hide_border=true&bg_color=000000&title_color=ffffff&text_color=d9d9d9&icon_color=ffffff" alt="GitHub Stats" width="49%" />
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=watashi-00&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=d9d9d9&langs_count=8" alt="Top Languages" width="49%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Research" width="25" align="center" /> Active Research & Study</h3>
-      <ul>
-        <li><b>Vulkan Graphic Pipelines</b></li>
-        <li><b>eBPF Subsystem Architecture</b></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Resources" width="25" align="center" /> Resources</h3>
-      <ul>
-        <li>
-          <a href="https://watashi00.medium.com/reconstruindo-a-web-legada-0b87ecfaa66e" target="_blank">
-            <b>Deep Technical Write-up (Portuguese):</b> Reconstruindo a Web Legada (Medium)
-          </a>
-        </li>
-      </ul>
+      <img src="github-metrics.svg" alt="Metrics" width="100%">
     </td>
   </tr>
 </table>
