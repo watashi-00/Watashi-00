@@ -80,7 +80,6 @@
     </td>
   </tr>
 </table>
----
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="26" align="center" /> Technologies & Tools
 
@@ -136,8 +135,6 @@
     </tr>
   </tbody>
 </table>
-
----
 
 <div align="center">
 
