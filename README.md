@@ -193,7 +193,7 @@ concurrency, and cluster communication.
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Classical%20Building.png" alt="Architecture" width="26" align="center" /> Architecture Interests
+### Architecture Interests
 
 <div align="center">
 
@@ -237,7 +237,7 @@ propagate into the others.
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="26" align="center" /> Technologies & Tools
+### Technologies & Tools
 
 <table width="100%" border="0" cellpadding="8" cellspacing="0">
 
@@ -329,7 +329,7 @@ propagate into the others.
 
 <div align="center">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Link.png" alt="Link" width="26" align="center" /> Contact & Connect
+### Contact & Connect
 
 <a href="mailto:watashi@hexacloud.net.br">
   <img src="https://img.shields.io/badge/-watashi%40hexacloud.net.br-000000?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
