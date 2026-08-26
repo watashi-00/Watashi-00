@@ -23,6 +23,13 @@
       with a focus on systems-level behavior and observability.
     </i>
   </p>
+
+  <p>
+    <i>
+      <a href="#contact">↓ Contact</a>
+    </i>
+  </p>
+  
 </div>
 
 ---
@@ -329,25 +336,50 @@ propagate into the others.
 
 <div align="center">
 
+<a name="contact"></a>
+
 ### Contact & Connect
 
-<a href="mailto:watashi@hexacloud.net.br">
-  <img src="https://img.shields.io/badge/-watashi%40hexacloud.net.br-000000?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
 <br><br>
 
-<i>
-Always exploring new technologies and paradigms,
-with a constant focus on how systems are designed,
-implemented, measured, and scaled.
-</i>
-
-<br><br>
-
-<a href="https://github.com/sponsors/watashi-00">
-  <img src="https://github.com/sponsors/watashi-00/card" alt="Sponsor Watashi" width="600" />
-</a>
+<table align="center">
+  <tr>
+    <td align="center" width="200">
+      <img
+        src="https://github.com/watashi-00.png"
+        width="200"
+        height="200"
+        style="border-radius: 50%;"
+        alt="Watashi"
+      />
+    </td>
+    <td align="left">
+      <h3>Watashi</h3>
+      <p>
+        <b>Backend & Systems Engineer</b>
+      </p>
+      <p>
+        <i>
+        Always exploring new technologies and paradigms,
+        with a constant focus on how systems are designed,
+        implemented, measured, and scaled.
+        </i>
+      </p>
+      <a href="https://github.com/watashi-00">
+        <img
+          src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=white"
+          alt="GitHub"
+        />
+      </a>
+      <a href="mailto:watashi@hexacloud.net.br">
+        <img
+          src="https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=white"
+          alt="Email"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
