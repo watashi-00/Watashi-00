@@ -350,11 +350,11 @@ propagate into the others.
         width="200"
         height="200"
         style="border-radius: 50%;"
-        alt="Watashi"
+        alt="Watashi00"
       />
     </td>
     <td align="left">
-      <h3>Watashi</h3>
+      <h3>Watashi00</h3>
       <p>
         <b>Backend & Systems Engineer</b>
       </p>
@@ -375,6 +375,12 @@ propagate into the others.
         <img
           src="https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=white"
           alt="Email"
+        />
+      </a>
+      <a href="https://medium.com/@watashi00">
+        <img
+          src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white"
+          alt="Medium"
         />
       </a>
     </td>
