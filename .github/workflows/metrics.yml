@@ -1,1 +1,99 @@
-"\"name: GitHub Metrics\\n\\non:\\n  schedule:\\n    - cron: \\\"0 0 * * *\\\"\\n\\n  workflow_dispatch:\\n\\n  push:\\n    branches:\\n      - main\\n      - master\\n\\njobs:\\n  preflight:\\n    runs-on: ubuntu-latest\\n    timeout-minutes: 2\\n    permissions:\\n      contents: read\\n    steps:\\n      - name: Validate token and metric targets\\n        env:\\n          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}\\n        run: |\\n          set -euo pipefail\\n          if [[ -z \\\"${METRICS_TOKEN:-}\\\" ]]; then\\n            echo \\\"METRICS_TOKEN is not configured\\\" >&2\\n            exit 1\\n          fi\\n          auth=(-H \\\"Authorization: Bearer $METRICS_TOKEN\\\" -H \\\"Accept: application/vnd.github+json\\\" -H \\\"X-GitHub-Api-Version: 2022-11-28\\\")\\n          viewer=$(curl --fail-with-body --silent --show-error \\\"${auth[@]}\\\" https://api.github.com/user)\\n          [[ \\\"$(jq -r .login <<<\\\"$viewer\\\")\\\" == \\\"watashi-00\\\" ]] || { echo \\\"METRICS_TOKEN belongs to another account\\\" >&2; exit 1; }\\n          graphql=$(curl --fail-with-body --silent --show-error \\\"${auth[@]}\\\" -H \\\"Content-Type: application/json\\\" https://api.github.com/graphql -d '{\\\"query\\\":\\\"query { viewer { login } }\\\"}')\\n          [[ \\\"$(jq -r .data.viewer.login <<<\\\"$graphql\\\")\\\" == \\\"watashi-00\\\" ]] || { echo \\\"METRICS_TOKEN failed GraphQL validation\\\" >&2; exit 1; }\\n          for target in \\\"watashi-00/Watashi-00\\\" \\\"spm-ecosystem/site-package-manager\\\" \\\"GateBridge/GateBridge\\\"; do\\n            curl --fail-with-body --silent --show-error \\\"${auth[@]}\\\" \\\"https://api.github.com/repos/$target\\\" >/dev/null\\n          done\\n          echo \\\"Preflight passed: token, GraphQL, and all metric targets are valid.\\\"\\n  github-metrics:\\n    needs: preflight\\n    runs-on: ubuntu-latest\\n\\n    permissions:\\n      contents: write\\n\\n    steps:\\n      - name: Generate GitHub Metrics\\n        uses: lowlighter/metrics@latest\\n        with:\\n          token: ${{ secrets.METRICS_TOKEN }}\\n\\n          filename: github-metrics.svg\\n\\n          config_timezone: America/Sao_Paulo\\n          config_theme: dark\\n\\n          base: header, activity, community, repositories, metadata\\n          base_indepth: yes\\n\\n          plugin_languages: yes\\n          plugin_languages_ignored: >-\\n            html,css,tex,less,dockerfile,makefile,qmake,lex,cmake,\\n            shell,gnuplot\\n          plugin_languages_limit: 8\\n          plugin_languages_details: percentage\\n\\n      - name: Generate SPM Repository Card\\n        uses: lowlighter/metrics@latest\\n        with:\\n          token: ${{ secrets.METRICS_TOKEN }}\\n\\n          filename: spm-repo.svg\\n\\n          user: spm-ecosystem\\n          repo: site-package-manager\\n\\n          template: repository\\n          config_theme: dark\\n\\n          plugin_languages: yes\\n          plugin_languages_ignored: html,css\\n          plugin_languages_limit: 4\\n\\n      - name: Generate GateBridge Repository Card\\n        uses: lowlighter/metrics@latest\\n        with:\\n          token: ${{ secrets.METRICS_TOKEN }}\\n\\n          filename: gatebridge-repo.svg\\n\\n          user: GateBridge\\n          repo: gatebridge\\n\\n          template: repository\\n          config_theme: dark\\n\\n          plugin_languages: yes\\n          plugin_languages_ignored: html,css\\n          plugin_languages_limit: 4\""
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    permissions:
+      contents: read
+    steps:
+      - name: Validate token and metric targets
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${METRICS_TOKEN:-}" ]]; then
+            echo "METRICS_TOKEN is not configured" >&2
+            exit 1
+          fi
+          auth=(-H "Authorization: Bearer $METRICS_TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
+          viewer=$(curl --fail-with-body --silent --show-error "${auth[@]}" https://api.github.com/user)
+          [[ "$(jq -r .login <<<"$viewer")" == "watashi-00" ]] || { echo "METRICS_TOKEN belongs to another account" >&2; exit 1; }
+          graphql=$(curl --fail-with-body --silent --show-error "${auth[@]}" -H "Content-Type: application/json" https://api.github.com/graphql -d '{"query":"query { viewer { login } }"}')
+          [[ "$(jq -r .data.viewer.login <<<"$graphql")" == "watashi-00" ]] || { echo "METRICS_TOKEN failed GraphQL validation" >&2; exit 1; }
+          for target in "watashi-00/Watashi-00" "spm-ecosystem/site-package-manager" "GateBridge/GateBridge"; do
+            curl --fail-with-body --silent --show-error "${auth[@]}" "https://api.github.com/repos/$target" >/dev/null
+          done
+          echo "Preflight passed: token, GraphQL, and all metric targets are valid."
+  github-metrics:
+    needs: preflight
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          filename: github-metrics.svg
+
+          config_timezone: America/Sao_Paulo
+          config_theme: dark
+
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html,css,tex,less,dockerfile,makefile,qmake,lex,cmake,
+            shell,gnuplot
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+
+      - name: Generate SPM Repository Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          filename: spm-repo.svg
+
+          user: spm-ecosystem
+          repo: site-package-manager
+
+          template: repository
+          config_theme: dark
+
+          plugin_languages: yes
+          plugin_languages_ignored: html,css
+          plugin_languages_limit: 4
+
+      - name: Generate GateBridge Repository Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          filename: gatebridge-repo.svg
+
+          user: GateBridge
+          repo: gatebridge
+
+          template: repository
+          config_theme: dark
+
+          plugin_languages: yes
+          plugin_languages_ignored: html,css
+          plugin_languages_limit: 4
