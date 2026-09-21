@@ -63,7 +63,7 @@ jobs:
 
           filename: gatebridge-repo.svg
 
-          user: watashi-00
+          user: GateBridge
           repo: gatebridge
 
           template: repository
