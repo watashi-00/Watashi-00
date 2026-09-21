@@ -1,5 +1,9 @@
 name: GitHub Metrics
 
+concurrency:
+  group: github-metrics
+  cancel-in-progress: true
+
 on:
   schedule:
     - cron: "0 0 * * *"
