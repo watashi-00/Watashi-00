@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:2b2b2b&height=120&section=header&animation=fadeIn" width="100%" alt="Header banner" />
 
-  <p><b>Backend & Systems Engineer</b> with an <b>architecture-first mindset</b>.</p>
+  <p><b>Backend, Systems & Platform Engineer</b> with an <b>architecture-first mindset</b>.</p>
 
   <p>
     <i>
