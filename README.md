@@ -356,7 +356,7 @@ propagate into the others.
     <td align="left">
       <h3>Watashi00</h3>
       <p>
-        <b>Backend & Systems Engineer</b>
+        <b>Backend, Systems & Platform Engineer</b>
       </p>
       <p>
         <i>
