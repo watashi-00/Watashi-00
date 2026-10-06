@@ -53,7 +53,7 @@
   </li>
   <li>
     <b>Systems Programming:</b>
-    C, C++, Rust, memory management, low-level tooling, and system behavior.
+    C, C++, memory management, low-level tooling, runtime behavior, and system architecture.
   </li>
   <li>
     <b>Infrastructure:</b>
@@ -152,7 +152,7 @@ edge infrastructure, and distributed package storage.
     <td width="45%" valign="top" align="center">
       <br>
 
-  <a href="https://github.com/watashi-00/gatebridge">
+  <a href="https://github.com/GateBridge/GateBridge">
     <img src="gatebridge-repo.svg" alt="GateBridge Repository" width="100%" />
   </a>
 </td>
@@ -196,6 +196,55 @@ concurrency, and cluster communication.
 
   </tr>
 
+</table>
+
+---
+
+### Ecosystems & Organizations
+
+<table width="100%" border="0" cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="30%" valign="top">
+        <a href="https://github.com/GateBridge"><b>GateBridge</b></a>
+      </td>
+      <td width="70%" valign="top">
+        High-throughput cluster gateway framework, Loom-based virtual threading, dynamic autodiscovery & devops TUI telemetry.
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" valign="top">
+        <a href="https://github.com/spm-ecosystem"><b>spm-ecosystem</b></a>
+      </td>
+      <td width="70%" valign="top">
+        Site Package Manager modernization engine, C++ layout compiler, React 18 Shadow DOM extensions & edge registry.
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" valign="top">
+        <a href="https://github.com/Kaelithlabs"><b>KaelithLabs</b></a>
+      </td>
+      <td width="70%" valign="top">
+        Modular computing foundations, design system architectures, and component libraries.
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" valign="top">
+        <a href="https://github.com/w00-labs"><b>w00-labs</b></a>
+      </td>
+      <td width="70%" valign="top">
+        Systems research, polyglot algorithms, runtime prototypes (C, Assembly, Java), and low-level explorations.
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" valign="top">
+        <a href="https://github.com/ai-tollings"><b>ai-tollings</b></a> · <a href="https://github.com/web-tollings"><b>web-tollings</b></a>
+      </td>
+      <td width="70%" valign="top">
+        Agentic automation toolkits, browser-based SQL tooling (DuckDB-WASM), and developer productivity utilities.
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
@@ -264,11 +313,10 @@ propagate into the others.
 <img src="https://img.shields.io/badge/-Java-000000?style=flat-square&logo=java&logoColor=white" alt="Java" />
 <img src="https://img.shields.io/badge/-C-000000?style=flat-square&logo=c&logoColor=white" alt="C" />
 <img src="https://img.shields.io/badge/-C%2B%2B-000000?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-<img src="https://img.shields.io/badge/-Zig-000000?style=flat-square&logo=zig&logoColor=white" alt="Zig" />
 <img src="https://img.shields.io/badge/-Assembly-000000?style=flat-square&logo=assemblyscript&logoColor=white" alt="Assembly" />
 <img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
 <img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white" alt="Python" />
 
   </td>
 </tr>
@@ -321,6 +369,8 @@ propagate into the others.
   <td valign="top">
 
 
+<img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+<img src="https://img.shields.io/badge/-Zig-000000?style=flat-square&logo=zig&logoColor=white" alt="Zig" />
 <img src="https://img.shields.io/badge/-Vulkan-000000?style=flat-square&logo=vulkan&logoColor=white" alt="Vulkan" />
 <img src="https://img.shields.io/badge/-eBPF-000000?style=flat-square&logo=linux&logoColor=white" alt="eBPF" />
 
