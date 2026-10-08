@@ -61,13 +61,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
 
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html,css,tex,less,dockerfile,makefile,qmake,lex,cmake,
-            shell,gnuplot
-          plugin_languages_limit: 8
-          plugin_languages_details: percentage
-
       - name: Generate SPM Repository Card
         uses: lowlighter/metrics@latest
         with:
@@ -93,7 +86,7 @@ jobs:
           filename: gatebridge-repo.svg
 
           user: GateBridge
-          repo: gatebridge
+          repo: GateBridge
 
           template: repository
           config_theme: dark
