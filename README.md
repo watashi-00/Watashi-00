@@ -5,6 +5,13 @@
 
   <p>
     <i>
+      Creator of the Veneer Spec language and the Site Package Manager (SPM) ecosystem.
+      Author of GateBridge, a Loom-based cluster gateway framework.
+    </i>
+  </p>
+
+  <p>
+    <i>
       I design and build software across the stack,
       from low-level implementation details to distributed system boundaries.
     </i>
@@ -103,7 +110,7 @@
         <a href="https://github.com/spm-ecosystem"><b>spm-ecosystem</b></a>
       </td>
       <td width="70%" valign="top">
-        Site Package Manager modernization engine, C++ layout compiler, React 18 Shadow DOM extensions & edge registry.
+        Site Package Manager modernization engine, Veneer Spec language, C++ layout compiler, React 18 Shadow DOM extensions & edge registry.
       </td>
     </tr>
     <tr>
@@ -132,50 +139,6 @@
     </tr>
   </tbody>
 </table>
-
----
-
-### Architecture Interests
-
-<div align="center">
-
-```txt
-┌──────────────────────────────────────┐
-│             Application              │
-│                                      │
-│  API Design · Concurrency · Domain   │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│         Distributed Systems          │
-│                                      │
-│ Communication · Routing · Consistency│
-│           Failure Boundaries         │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│            Infrastructure            │
-│                                      │
-│ Linux · Containers · Networking      │
-│             Storage · I/O            │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│               System                 │
-│                                      │
-│ Memory · CPU · Kernel · Hardware     │
-└──────────────────────────────────────┘
-```
-
-<i>
-I am particularly interested in how decisions at one layer
-propagate into the others.
-</i>
-
-</div>
 
 ---
 
